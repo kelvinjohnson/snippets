@@ -7,12 +7,12 @@
 \s      - Whitespace (space, tab, newline)
 \S      - Not Whitespace (space, tab, newline)
 
-\b      - Word Boundary
+\b      - Word Boundary - This looks for words that have nothing before it and nothing after it. 
 \B      - Not a Word Boundary
-^       - Beginning of a String
-$       - End of a String
+^       - Beginning of a String - A string at the start of the string
+$       - End of a String - start to be placed after the required string
 
-[]      - Matches Characters in brackets
+[]      - Matches Characters in brackets - 
 [^ ]    - Matches Characters NOT in brackets
 |       - Either Or
 ( )     - Group
